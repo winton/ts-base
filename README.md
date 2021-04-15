@@ -1,0 +1,3 @@
+# TsBase
+
+⚓ TypeScript base project
