@@ -1,5 +1,5 @@
 {
-  "name": "@winton/ts-base",
+  "name": "ts-base",
   "version": "0.0.1",
   "description": "TypeScript base project",
   "private": true,
@@ -48,5 +48,8 @@
       "eslint --ignore-path .gitignore --fix",
       "git add"
     ]
+  },
+  "dependencies": {
+    "tslib": "1.14.1"
   }
 }
