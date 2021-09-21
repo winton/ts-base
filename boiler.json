@@ -1,0 +1,19 @@
+{
+  "packages": {
+    "ts-base": {
+      "sourcePaths": [
+        ".eslintrc.json",
+        ".gitignore",
+        ".mocharc.json",
+        ".prettierrc",
+        ".vscode",
+        "bin",
+        "package.json",
+        "src",
+        "tsconfig.base.json",
+        "tsconfig.esm.json",
+        "tsconfig.json"
+      ]
+    }
+  }
+}
