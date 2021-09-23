@@ -5,9 +5,9 @@
   "private": true,
   "bin": {},
   "scripts": {
-    "build": "./bin/build",
+    "build": "./bin/build-ts",
     "postinstall": "husky install; npm run build",
-    "start": "./bin/watch",
+    "start": "./bin/watch-ts",
     "test": "NODE_ENV=\"${NODE_ENV:-test}\" mocha",
     "update": "ncu -u"
   },
