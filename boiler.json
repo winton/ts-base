@@ -4,12 +4,12 @@
       "sourcePaths": [
         ".eslintrc.json",
         ".gitignore",
+        ".husky",
         ".mocharc.json",
         ".prettierrc",
         ".vscode",
         "bin",
         "package.json",
-        "src",
         "tsconfig.base.json",
         "tsconfig.esm.json",
         "tsconfig.json"

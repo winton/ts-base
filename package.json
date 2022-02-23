@@ -6,7 +6,7 @@
   "bin": {},
   "scripts": {
     "build": "./bin/build-ts",
-    "postinstall": "husky install; npm run build",
+    "prepare": "husky install; npm run build",
     "start": "./bin/watch-ts",
     "test": "NODE_ENV=\"${NODE_ENV:-test}\" mocha",
     "update": "ncu -u"
@@ -21,35 +21,32 @@
     "url": "https://github.com/winton/ts-base/issues"
   },
   "homepage": "https://github.com/winton/ts-base#readme",
-  "devDependencies": {
-    "@types/fs-extra": "9.0.13",
-    "@types/mocha": "9.0.0",
-    "@types/node": "16.9.6",
-    "@typescript-eslint/eslint-plugin": "4.31.2",
-    "@typescript-eslint/parser": "4.31.2",
-    "eslint": "7.32.0",
-    "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-prettier": "4.0.0",
-    "expect": "27.2.1",
-    "husky": "7.0.2",
-    "lint-staged": "11.1.2",
-    "mocha": "9.1.1",
-    "npm-check-updates": "11.8.5",
-    "prettier": "2.4.1",
-    "source-map-support": "0.5.20",
-    "typescript": "4.4.3"
-  },
-  "lint-staged": {
-    "*.{css,json,md}": [
-      "prettier --write",
-      "git add"
-    ],
-    "*.{js,jsx,ts}": [
-      "eslint --ignore-path .gitignore --fix",
-      "git add"
-    ]
-  },
   "dependencies": {
     "tslib": "2.3.1"
+  },
+  "devDependencies": {
+    "@types/mocha": "9.1.0",
+    "@types/node": "17.0.19",
+    "@typescript-eslint/eslint-plugin": "5.12.1",
+    "@typescript-eslint/parser": "5.12.1",
+    "eslint": "8.9.0",
+    "eslint-config-prettier": "8.4.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "expect": "27.5.1",
+    "husky": "7.0.4",
+    "lint-staged": "12.3.4",
+    "mocha": "9.2.1",
+    "npm-check-updates": "12.4.0",
+    "prettier": "2.5.1",
+    "source-map-support": "0.5.21",
+    "typescript": "4.5.5"
+  },
+  "lint-staged": {
+    "*.{css,html,json,md}": [
+      "prettier --write"
+    ],
+    "*.{js,jsx,ts}": [
+      "eslint --ignore-path .gitignore --fix"
+    ]
   }
 }

@@ -7,7 +7,7 @@
       "type": "npm",
       "script": "start",
       "label": "npm start",
-      "auto": true
+      "runOptions": { "runOn": "folderOpen" }
     }
   ]
 }
