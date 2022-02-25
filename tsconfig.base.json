@@ -1,5 +1,5 @@
 {
-  "exclude": ["./dist", "**/node_modules"],
+  "exclude": ["./build", "**/node_modules"],
   "include": ["./src"],
   "compilerOptions": {
     "alwaysStrict": true,
@@ -7,10 +7,19 @@
     "declaration": true,
     "esModuleInterop": true,
     "importHelpers": true,
-    "lib": ["dom", "es2015"],
+    "lib": ["DOM", "ES2019"],
     "moduleResolution": "node",
     "rootDir": "./src",
     "sourceMap": true,
-    "types": ["node", "mocha"]
+    "types": ["node", "mocha"],
+    // from gts
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "pretty": true,
+    "strict": true,
   }
 }

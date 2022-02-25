@@ -2,9 +2,9 @@
 
 printf "TypeScript building...\n"
 
-rm -rf dist
+rm -rf build
 npx tsc --project tsconfig.json &
-npx tsc --project tsconfig.esm.json &
+npx tsc --project tsconfig.client.json &
 time wait
 
 printf "\n"
