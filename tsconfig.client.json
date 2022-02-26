@@ -3,6 +3,19 @@
   "compilerOptions": {
     "module": "ES2020",
     "outDir": "./build/client",
-    "target": "ES5"
+    "target": "ES5",
+    "plugins": [
+      {
+        "transform": "tsc-progress",
+        "title": "Client"
+      },
+      {
+				"transform": "@zoltu/typescript-transformer-append-js-extension",
+				"after": true,
+			},
+      {
+        "transform": "@zerollup/ts-transform-paths"
+      }
+    ]
   }
 }
