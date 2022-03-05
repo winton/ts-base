@@ -1,6 +1,6 @@
 # ts-base
 
-🪨 TypeScript base for Lambda and Browser
+🪨 TypeScript base targetting Lambda and Browser
 
 ## Install
 
