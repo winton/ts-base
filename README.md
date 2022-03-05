@@ -1,6 +1,6 @@
-# TS Base
+# ts-base
 
-⚓ TypeScript base project
+🪨 TypeScript base for Lambda and Browser
 
 ## Install
 
