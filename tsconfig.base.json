@@ -1,18 +1,15 @@
 {
-  "exclude": ["./build", "**/node_modules"],
-  "include": ["./src"],
   "compilerOptions": {
     "alwaysStrict": true,
     "baseUrl": "./src",
     "declaration": true,
     "esModuleInterop": true,
-    "importHelpers": true,
-    "lib": ["DOM", "ES2019"],
+    "lib": ["DOM", "ES2021"],
     "moduleResolution": "node",
     "paths": { "*": ["*"] },
     "rootDir": "./src",
     "sourceMap": true,
-    "types": ["node", "mocha"],
+    "types": ["node"],
     // from gts
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
