@@ -1,6 +1,6 @@
 # ts-base
 
-🪨 TypeScript base targeting Lambda and Browser
+🪨 TypeScript base targeting server and browser
 
 ## Install
 
@@ -30,10 +30,10 @@ npm test
 
 #### Versions
 
-| Environment                   | [Target](https://www.typescriptlang.org/tsconfig#target) | [Module](https://www.typescriptlang.org/tsconfig#module) |
-| :---------------------------- | :------------------------------------------------------- | :------------------------------------------------------- |
-| Browser (all except IE)       | [ES6](https://kangax.github.io/compat-table/es6)         | ES2020                                                   |
-| Node.js 16.x (Lambda runtime) | [ES2021](https://node.green/#ES2021)                     | ES2020                                                   |
+| Environment             | [Target](https://www.typescriptlang.org/tsconfig#target) | [Module](https://www.typescriptlang.org/tsconfig#module) |
+| :---------------------- | :------------------------------------------------------- | :------------------------------------------------------- |
+| Server (Node.js 16.x)   | [ES2021](https://node.green/#ES2021)                     | ES2020                                                   |
+| Browser (all except IE) | [ES6](https://kangax.github.io/compat-table/es6)         | ES2020                                                   |
 
 #### Transformers
 
