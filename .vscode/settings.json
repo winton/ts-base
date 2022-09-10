@@ -1,5 +1,6 @@
 {
   "search.exclude": {
     "build": true
-  }
+  },
+  "task.allowAutomaticTasks": "on"
 }
